@@ -210,14 +210,20 @@ header {
 
 /* section-2 */
 
-.zaholovok {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  text-align: center;
-  color: #2e2f42;
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+.feautures-list-content {
+  display: flex;
+  gap: 24px;
 }
 
 .feautures-main-content {
@@ -226,6 +232,7 @@ header {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  width: calc((100% - 72px) / 4);
 }
 
 .feautures-sec-content {
@@ -234,6 +241,7 @@ header {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  margin-bottom: 8px;
 }
 
 /* section-3 */
