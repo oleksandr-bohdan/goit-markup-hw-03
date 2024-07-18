@@ -173,6 +173,7 @@ header {
 /* SECTION-1 */
 .hero {
   background-color: #2e2f42;
+  padding: 188px 0;
 }
 .hero-content {
   font-weight: 700;
