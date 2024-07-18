@@ -183,6 +183,7 @@ header {
   text-transform: capitalize;
   text-align: center;
   color: #ffffff;
+  max-width: 496px;
 }
 .hero-button {
   background-color: #4d5ae5;
@@ -193,9 +194,12 @@ header {
   text-transform: capitalize;
   text-align: center;
   color: #ffffff;
-}
-.hero-button {
-  background-color: #4d5ae5;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
 .hero-button:hover,
