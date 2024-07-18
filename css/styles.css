@@ -74,18 +74,6 @@ section {
 
 /* HEADER */
 
-header {
-  border-bottom: 1px solid #e7e9fc;
-}
-
-.header-container {
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-direction: row;
-  gap: 300px;
-}
-
 .header-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -113,6 +101,16 @@ header {
 }
 
 /* NAV */
+
+header {
+  border-bottom: 1px solid #e7e9fc;
+  padding: 24px;
+}
+
+.header-container {
+  display: flex;
+  gap: 332px;
+}
 
 .header-nav {
   display: flex;
