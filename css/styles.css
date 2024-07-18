@@ -349,6 +349,7 @@ header {
 
 .footer-main {
   background-color: #2e2f42;
+  padding: 100px 0;
 }
 
 .footer-logo {
@@ -360,6 +361,8 @@ header {
   text-transform: uppercase;
   color: #4d5ae5;
   text-decoration: none;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .span-footer-logo {
@@ -376,4 +379,5 @@ header {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  max-width: 264px;
 }
