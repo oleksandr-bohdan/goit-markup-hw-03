@@ -215,6 +215,10 @@ header {
 
 /* section-2 */
 
+.feautures{
+  padding: 120px 0;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
